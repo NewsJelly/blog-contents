@@ -6,7 +6,7 @@ categories: jekyll tutorial
 ---
 
 - 연습 삼아서 Jeykyll 사용법을 정리해볼 예정입니다.
-
+우루루루루루
 {% highlight sh %}
 bundle exec jekyll serve
 {% endhighlight %}
