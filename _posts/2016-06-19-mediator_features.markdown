@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mediator Features"
-date:   2016-06-20 14:34:25
+date:   2016-06-19 14:34:25
 categories: mediator feature
 tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
