@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "강젤 테스트"
-date:   2016-06-20 16:34:25
+date:   2016-06-20 16:20:25
 categories: mediator feature
 tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
