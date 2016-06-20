@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Test"
-date:   2014-11-30 14:34:25
+title:  "테스트"
+date:   2016-06-20 17:34:25
 categories: injell feature
 tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
