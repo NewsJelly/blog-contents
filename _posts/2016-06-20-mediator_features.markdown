@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "메디에이터 특징"
+title:  "Mediator Features"
 date:   2016-06-20 14:34:25
 categories: mediator feature
 tags: featured
