@@ -19,4 +19,5 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 ![위 기능을 활용하여 만든 예시 대시보드](https://cloud.githubusercontent.com/assets/10662638/16190071/67dc6f7e-3718-11e6-9a81-c7a8699dd7cd.png)
 
-위와 같은 차트를 활용한 데이터랩 4화 [우리도 떠나자! 제주여행 태블로 콘텐츠 보기](https://public.tableau.com/views/_0617/0616_text?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3)
+위와 같은 차트를 활용한 데이터랩 4화
+[우리도 떠나자! 제주여행 태블로 콘텐츠 보기](https://public.tableau.com/views/_0617/0616_text?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3)
