@@ -13,3 +13,4 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 #데이터랩 4화 '우리도 떠나요~! 제주여행' [태블로 콘텐츠](https://public.tableau.com/views/_0617/0616_text?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3) 보러가기
 
+![image](https://cloud.githubusercontent.com/assets/10662638/16186420/565646e8-3705-11e6-859b-3d2b66af47a6.png)
