@@ -20,4 +20,4 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 ![image](https://cloud.githubusercontent.com/assets/10662638/16189670/89fd8310-3716-11e6-8cdc-ade4ac093fd6.png)
 > 위 기능을 활용하여 만든 예시 대시보드 : 위에서 만든 sheet에 제목과 컬러레전드를 삽입했다.
 
-위와 같은 차트를 활용한 데이터랩 4화 [우리도 떠나자! 제주여행 태블로 콘텐츠](https://public.tableau.com/views/_0617/0616_text?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3) 보러가기!
+위와 같은 차트를 활용한 데이터랩 4화 [우리도 떠나자! 제주여행 태블로 콘텐츠 보기](https://public.tableau.com/views/_0617/0616_text?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3)
