@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "강젤리의 태블로 활용기 #2 맵차트 그리기"
+date:   2016-07-03 17:34:25
+categories: injell feature
+tags: featured
+image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+---
+
+지도시각화를 하기 전 미리 체크해야 할 사항!
+
+![위치 정보 데이터 형식 설정하기](https://cloud.githubusercontent.com/assets/10662638/16551443/b070341a-41f3-11e6-8549-15b2c5796c8c.png)
+  * 위치 정보에 해당하는 데이터 필드의 형식 설정 : 지도 > 국가/지역, 시/도 등 선택
+  
+![image](https://cloud.githubusercontent.com/assets/10662638/16551479/25407138-41f4-11e6-8a07-dd01cd13ec64.png)
+왼쪽 데이터 필드 중 위치 데이터에 해당하는 '시도별' 필드를 더블클릭하면 똑똑한 태블로는 자동으로 지도 위에 위치를 찍어준다.
+
+![image](https://cloud.githubusercontent.com/assets/10662638/16551566/e38f5c6c-41f4-11e6-9d8b-9d9fa7f343aa.png)
+단순한 위치를 찍는 것이 아닌 지역별 특정 수치를 비교해보고 싶다면, measures 값 중 하나의 필드를 선택해 marks 영역 내 'size' 영역으로 드래그 앤 드롭한다. 이제 지도 위 버블 크기에 '인구 수'가 반영되었다.
+
+간단히 그려본 지도시각화에 몇 가지 활용방안을 살펴보자!
+
+![filled map 그리기](https://cloud.githubusercontent.com/assets/10662638/16551630/6740b13c-41f5-11e6-8602-bf20edc4b102.png)
+symbol map이 아닌 filled map을 그리고 싶다면? marks 영역 내 차트 종류를 'filled map'을 선택하면 된다. 이 경우 measures 데이터 필드를 size 영역으로 이동시켜 놓은 다 한들, 지도 내 영역의 크기가 변하지 않으므로, meausres 값을 반영하고 싶다면 해당 필드를 color 영역으로 이동시킨다. 지도 위에 표현된 컬러는 색이 진할 수록 높은 수치를 의미한다.
+
+![시점별 여려개의 지도 그리기](https://cloud.githubusercontent.com/assets/10662638/16551778/e3a9539a-41f6-11e6-9e79-4689ad01b2c5.png)
+지도 시각화에서 시계열 변화를 한 눈에 보고 싶다면? 이 경우 연도별/월별 등 여러 시점의 맵 챠트를 그리면, 지도 시각화에서도 시계열 변화를 확인 할 수 있다. 방법은 데이터 필드 중 시계열 정보를 갖고 있는 필드를 화면 상단의 columns 영역으로 드래그 앤 드롭하면 된다.
+
+위와 같은 차트를 활용한 데이터랩 5화
+[너도 혼자 살고, 나도 혼자살고 - 데이터로 보는 1인가구 태블로 콘텐츠 보기](https://public.tableau.com/views/1_0704_0/Story1?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3)
