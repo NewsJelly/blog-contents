@@ -7,6 +7,7 @@ tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
+
 ### 한줄로 쓰는 리뷰 
 지루한 일상으로 멤버들의 지친 뇌를 주물러줄 수 있는 무언가를 찾아 떠나는 시간 
 
@@ -15,6 +16,7 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 각자 2-3개씩의 영상을 찾아왔고, 그 중 멤버들에게 가장 자극이 됐던 4편의 영상을 엄선하여 한줄로 리뷰해봤습니다. 
 
 -----
+
 #### 한 줄 리뷰 1탄 
 1. [제임스 카메론 - 호기심 많은 소년이야기](http://www.ted.com/talks/james_cameron_before_avatar_a_curious_boy?language=ko)
  
