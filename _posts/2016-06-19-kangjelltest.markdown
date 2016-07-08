@@ -2,7 +2,7 @@
 layout: post
 title:  "강젤리의 태블로 활용기 #1 라인차트 그리기"
 date:   2016-06-19 17:34:25
-categories: injell feature
+categories: kangjell tutorial
 tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
