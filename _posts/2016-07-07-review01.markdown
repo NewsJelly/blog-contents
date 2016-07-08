@@ -8,17 +8,21 @@ image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
 
-### 한줄로 쓰는 리뷰 
+
+## 한줄로 쓰는 리뷰 
 지루한 일상으로 멤버들의 지친 뇌를 주물러줄 수 있는 무언가를 찾아 떠나는 시간 
 
 오늘은 팀원들에게 공유하고 싶은 영상을 각자 일주일동아 찾아 함께 감상(?)하는 첫번째 리뷰 시간을 가졌습니다.
 
 각자 2-3개씩의 영상을 찾아왔고, 그 중 멤버들에게 가장 자극이 됐던 4편의 영상을 엄선하여 한줄로 리뷰해봤습니다. 
 
+
 -----
 
-#### 한 줄 리뷰 1탄 
-1. [제임스 카메론 - 호기심 많은 소년이야기](http://www.ted.com/talks/james_cameron_before_avatar_a_curious_boy?language=ko)
+
+### 한 줄 리뷰 1탄 
+
+#### 1. [제임스 카메론 - 호기심 많은 소년이야기](http://www.ted.com/talks/james_cameron_before_avatar_a_curious_boy?language=ko)
  
  
  * 강젤리
@@ -35,7 +39,8 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
  * 인젤리
 > 아직 우리 사회에는 상상력을 현실로 만들도록 장려할 수 있는 인프라가 부족한 것 같다. 미국 짱 👍 
 
-1. [Reshma Saujani - Teach girls bravery, not perfection](https://www.youtube.com/watch?v=fC9da6eqaqg)
+
+#### 2. [Reshma Saujani - Teach girls bravery, not perfection](https://www.youtube.com/watch?v=fC9da6eqaqg)
 
  * 강젤리
  
@@ -57,7 +62,8 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
  * 인젤리
 > 남성으로서 차별받는 여성들에게 기계적인 평등을 넘어, 용기내어 실패할 수 있는 기회가 더 많이 주어지도록 배려하고 주의 해야겠다.
 
-3. [지식채널 e - 행복한 오타쿠](http://www.ebs.co.kr/tv/show?courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=10192925)
+
+#### 3. [지식채널 e - 행복한 오타쿠](http://www.ebs.co.kr/tv/show?courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=10192925)
  * 강젤리
 
 ![alt text](https://cloud.githubusercontent.com/assets/10662638/16676561/4e3941ae-4506-11e6-875b-25b814a82ff7.png "Logo Title Text 1")
@@ -80,7 +86,8 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 > 좋아하는 것을 위한 과감한 도전에 박수를 보내지만, 소비지향적 삶을 너무 낭만적으로 담은 것이 아닌가 하는 아쉬움이 남는다. 
 
 
-4. [N-gram - What we learned from 5 million books](https://www.youtube.com/watch?v=5l4cA8zSreQ&feature=youtu.be)
+
+#### 4. [N-gram - What we learned from 5 million books](https://www.youtube.com/watch?v=5l4cA8zSreQ&feature=youtu.be)
 
  * 강젤리
 > 1520년부터 매우 긴 기간의 데이터를 통해 인문학적인 인사이트를 뽑아낼 수 있다는 것이 놀라웠다. 데이터 해석시 일어날 수 있는 왜곡에 대한 언급도 기억에 남는다.
