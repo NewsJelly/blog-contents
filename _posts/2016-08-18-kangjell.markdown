@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "강젤리의 태블로 활용기 #3 100% 기준 누적 막대차트 그리기 "
+date:   2016-08-18 17:34:25
+categories: injell feature
+tags: featured
+image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+---
+
+태블로의 유용한 기능 중 하나인 quick table calculation 기능을 활용해 100% 기준 누적 막대차트 그리기!
+
+![태블로에서 활용가능한 table calculation 기능들](https://cloud.githubusercontent.com/assets/10662638/17802941/352d2d3a-662e-11e6-8c37-3368d36f4adf.png)
+태블로 내에서는 수치 데이터 필드에 한해서 태블로 내에서 바로 계산하고, 계산된 필드를 시각화에 활용할 수 있는 기능을 제공한다. 누적, 순위, 전체 중 차지하는 비중 등 계산을 쉽게 할 수 있고, 또한 적용한 기능을 해제할 수 있다.
+
+table calculation 기능을 활용해 100% 기준의 누적 막대 차트를 그려보자!
+  
+![기본적인 막대 차트 그리기](https://cloud.githubusercontent.com/assets/10662638/17803214/0220c936-6630-11e6-90ca-436147586e01.png)
+measure 값 중 하나를 columns 영역으로 드래그 앤 드롭한다. 다음으로 dimension 영역에 있는 필드 중 하나(카테고리컬한 필드)를 선택해 marks 영역내 'color'영역으로 드래그 앤 드롭한다. 이 경우 장르별(dimension 필드) 검색량(measure 필드)이 하나의 막대로 그려진다.
+
+x축을 보면 알 수 있듯이, 현재 그려진 차트는 단순히 장르별 검색량은 누적한 전체 검색량을 하나의 막대로 표현한 것이다.
+
+![100% 기준 누적 막대 차트 그리기](https://cloud.githubusercontent.com/assets/10662638/17804310/f3ca8380-6635-11e6-8d53-e501d6bf63f0.png)
+활용한 measure 필드의 오른쪽 끝의 삼각형을 클릭, quick table calculation 중 percent of total을 선택한다. 오른쪽 이미지에 보이듯이 x축이'% of Total 검색량'으로 바뀌면서 x축의 단위가 %로 바뀐 것을 확인할 수 있다. 전체 검색량 100%를 어떤 필드를 기준으로 나눠서 보여줄지는 태블로가 자동으로 설정해주는데, 간혹 계산이 맞지 않을 경우 'compute using'을 클릭해 원하는 기준의 필드를 선택하면 된다. 예제의 경우 전체 검색량을 장르별로 구분해 보기 위함이므로 '장르' 필드를 선택하면 된다.
+
+간단히 그려본 100% 기준 누적 막대 차트에 부가기능을 더해 효과적인 시각화를 만들어보자!
+
+![레이블 활용하기](https://cloud.githubusercontent.com/assets/10662638/17804657/9cdb9b8e-6637-11e6-8173-69053b24d424.png)
+막대 차트 위에 레이블을 표현해보자. 위의 과정을 통해 만든 차트에 활용한 필드를 marks 영역내 'lable' 영역으로 드래그 앤 드롭한다. 예제에서는 전체 검색량 100%을 나누는 기준이 된 '장르' 필드와 'quick table calculation 기능을 사용한 검색량' 필드를 레이블로 표현하였다. 함께 알아두면 좋은 팁은 계산 기능을 적용한 필드의 경우 오른쪽에 삼각형 모양이 표시된다. 계산 기능을 적용한 필드와 그렇지 않은 필드를 헷갈리지 않도록 주의하자!
+
+위와 같은 차트를 활용한 데이터랩 6화
+[웹툰에 열광하는 대한민국 - 데이터로 보는 웹툰 태블로 콘텐츠 보러가기](https://public.tableau.com/views/_0817_/2story?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3)
