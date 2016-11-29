@@ -14,7 +14,7 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 태블로는 데이터를 가지고 있는 사용자가 쉽게 시각화를 할 수 있도록 24개 유형의 시각화 스타일을 제공한다. 사용자는 자신이 활용하고자 하는 데이터를 선택한 뒤 위 이미지 상에 활성화 되는 시각화 유형 중 하나를 선택해 빠르게 시각화 할 수 있다.
 
-![덤벨차트 활용사례, [출처](http://www.thedataschool.co.uk/ben-davis/making-barbell-plots-tableau/)](https://cloud.githubusercontent.com/assets/10662638/20701089/6076e834-b654-11e6-8f69-e84e08695246.png)
+![덤벨차트 활용사례, 출처: http://www.thedataschool.co.uk/ben-davis/making-barbell-plots-tableau](https://cloud.githubusercontent.com/assets/10662638/20701089/6076e834-b654-11e6-8f69-e84e08695246.png)
 
 그 뿐만 아니라 사용자가 자신의 아이디어를 기반으로 새로운 유형의 차트를 그릴 수 있다. 그 중 하나는 '덤벨 차트'로 2개의 카테고리컬한 분류 간의 차이를 보여주는 데 유용하다. '덤벨 차트'는 어떻게 그릴 수 있을까? 지금부터 그 방법을 알아보자!
 
