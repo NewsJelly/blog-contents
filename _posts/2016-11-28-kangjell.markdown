@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "강젤리의 태블로 활용기 #4 덤벨 차트 그리기"
+date:   2016-11-28 10:34:25
+categories: injell feature
+tags: featured
+image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+---
+
+태블로로 만들 수 있는 차트는 무궁무진하다! 덤벨 모양의 차트 만들어보기!
+
+![태블로 추천 시각화 유형](https://cloud.githubusercontent.com/assets/10662638/20700934/853a0346-b653-11e6-9234-f0149ed5a072.png)
+
+태블로는 데이터를 가지고 있는 사용자가 쉽게 시각화를 할 수 있도록 24개 유형의 시각화 스타일을 제공한다. 사용자는 자신이 활용하고자 하는 데이터를 선택한 뒤 위 이미지 상에 활성화 되는 시각화 유형 중 하나를 선택해 빠르게 시각화 할 수 있다.
+
+![덤벨차트 활용사례, [출처](http://www.thedataschool.co.uk/ben-davis/making-barbell-plots-tableau/)](https://cloud.githubusercontent.com/assets/10662638/20701089/6076e834-b654-11e6-8f69-e84e08695246.png)
+
+그 뿐만 아니라 사용자가 자신의 아이디어를 기반으로 새로운 유형의 차트를 그릴 수 있다. 그 중 하나는 '덤벨 차트'로 2개의 카테고리컬한 분류 간의 차이를 보여주는 데 유용하다. '덤벨 차트'는 어떻게 그릴 수 있을까? 지금부터 그 방법을 알아보자!
+
+![학생 1인당 월평균 사교육비 비용, 연도별 비교](https://cloud.githubusercontent.com/assets/10662638/20701252/426b3358-b655-11e6-988d-8e9cdcd23937.png)
+
+일단 카테고리컬한 데이터 필드(학생 종류 : 전체 학생, 사교육 참여학생)를 marks 영역의 color로 이동시킨 뒤, 연도별 사교육비 비용 현황을 보여주는 시각화를 한다. 태블로는 line 차트를 자동으로 추전해준다.
+
+![line 차트를 circle 차트로 변경하기](https://cloud.githubusercontent.com/assets/10662638/20701308/90da30de-b655-11e6-9241-c4836ddf5b72.png)
+
+이제 덤벨 모양이 될 수 있도록 line 차트를 circle 차트로 변경한다. 두 가지 색의 라인의 각 포인트가 원으로 바뀌어 있음을 확인할 수 있으며, 이때 원의 크기가 너무 크다고 판단될 경우 marks 영역의 size를 조정한다.
+
+이제 완벽한 덤벨 모양이 되기 위해서는 두 원 사이의 선을 그리면 된다! 이는 이중축을 활용하는 방법으로 그릴 수 있다!
+
+![이중축 만들기](https://cloud.githubusercontent.com/assets/10662638/20701429/4a5e74a2-b656-11e6-915a-0663fbbba86c.png)
+
+위에서 차트를 만들 때 활용한 measure 데이터 필드를 하나 더 행 영역으로 이동시킨다. 중앙의 영역에 동일한 형태의 차트가 2개 만들어진 것을 확인할 수 있다.
+
+![덤벨 사이를 이어줄 라인 만들기](https://cloud.githubusercontent.com/assets/10662638/20701582/2fce6416-b657-11e6-892f-e7dfccf6fa07.png)
+
+이제 동일한 2개의 circle 차트 중 하나를 선으로 만들어보자! 2개의 차트 중 하나를 circle 차트에서 line 차트로 변경한다. 또한 '경로'(path) 영역에 위에서 활용한 카테고리컬한 데이터 필드를 가져다 둔다. 변경된 시각화 차트를 보면, 각 연도별 사교육 참여 학생의 사교육비와 전체 학생의 사교육비 사이가 선으로 연결된 것을 볼 수 있다.  
+
+![완성된 덤벨 차트](https://cloud.githubusercontent.com/assets/10662638/20701864/81dac79e-b658-11e6-91cd-0e44e4122136.png)
+
+이제 덤벨의 모습의 시각화 차트가 완성되었다. 마지막으로 차트의 포맷을 수정하여, 완벽한 덤벨 차트를 만들어보자.
+
+![원 뒤로 라인을 숨기기](https://cloud.githubusercontent.com/assets/10662638/20701918/cb31080e-b658-11e6-9ac3-774d895770c0.png)
+
+첫번째로 상단의 measure 필드의 순서를 바꿔서 line 차트가 circle 차트 뒤에 위치하도록 하자. 
+
+![동일한 머리글 숨기기](https://cloud.githubusercontent.com/assets/10662638/20701957/fae261f6-b658-11e6-8def-1a1de59eb3d3.png)
+
+차트 양쪽에 보이는 축은 동일하므로, 굳이 두 번 표기할 필요가 없다. 오른쪽 머리글 영역에서 마우스 오른쪽을 클릭하여 나오는 옵션 창 중 '머리글 표시'를 해제한다. 
+
+위와 같은 차트를 활용한 콘텐츠로 데이터랩 8화 [우리들에게 사교육이란? - 데이터로 보는 대한민국 사교육 태블로 콘텐츠 보러가기](https://public.tableau.com/views/_1124_2/1_1?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#3)
