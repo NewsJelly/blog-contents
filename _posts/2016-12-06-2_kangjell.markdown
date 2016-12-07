@@ -8,7 +8,7 @@ image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
 
-지난번 이동경로 맵 그리기 첫번째 포스팅에 이어서, 이번 포스팅에서는 이동경로 맵의 두번째 유형을 그리는 방법에 대해서 알아보자!
+지난번 [이동경로 맵 그리기 첫번째 포스팅](http://newsjelly.github.io/blog-contents/injell/feature/2016/12/06/1-kangjell.html)에 이어서, 이번 포스팅에서는 이동경로 맵의 두번째 유형을 그리는 방법에 대해서 알아보자!
 
 ![이동경로 맵의 두번째 유형 ](https://cloud.githubusercontent.com/assets/10662638/20955650/33db1e96-bc88-11e6-9203-ac2d1df1f74d.png)
 
