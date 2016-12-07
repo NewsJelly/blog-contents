@@ -13,10 +13,10 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 ![위치 정보 데이터 형식 설정하기](https://cloud.githubusercontent.com/assets/10662638/16551443/b070341a-41f3-11e6-8549-15b2c5796c8c.png)
   * 위치 정보에 해당하는 데이터 필드의 형식 설정 : 지도 > 국가/지역, 시/도 등 선택
   
-![](https://cloud.githubusercontent.com/assets/10662638/16551479/25407138-41f4-11e6-8a07-dd01cd13ec64.png)
+![각 지역에 좌표 찍기](https://cloud.githubusercontent.com/assets/10662638/16551479/25407138-41f4-11e6-8a07-dd01cd13ec64.png)
 왼쪽 데이터 필드 중 위치 데이터에 해당하는 '시도별' 필드를 더블클릭하면 똑똑한 태블로는 자동으로 지도 위에 위치를 찍어준다.
 
-![](https://cloud.githubusercontent.com/assets/10662638/16551566/e38f5c6c-41f4-11e6-9d8b-9d9fa7f343aa.png)
+![지역별 Symbol에 수치 데이터 반영하기](https://cloud.githubusercontent.com/assets/10662638/16551566/e38f5c6c-41f4-11e6-9d8b-9d9fa7f343aa.png)
 단순한 위치를 찍는 것이 아닌 지역별 특정 수치를 비교해보고 싶다면, measures 값 중 하나의 필드를 선택해 marks 영역 내 'size' 영역으로 드래그 앤 드롭한다. 이제 지도 위 버블 크기에 '인구 수'가 반영되었다.
 
 간단히 그려본 지도시각화에 몇 가지 활용방안을 살펴보자!
