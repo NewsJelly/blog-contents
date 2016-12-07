@@ -28,6 +28,6 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 이제 각 지점을 라인으로 잇기 위해서 marks 영역에서 차트 유형을 line으로 변경한다. 또한 각 지점의 순서대로 선이 연결될 수 있도록 path 영역에 '노선_count' 필드를 이동시킨다. 순서대로 지점이 하나의 선으로 연결된 것을 확인할 수 있다. 만약 동시에 여러 개의 선을 만들고 싶다면, '노선명' 필드를 marks 영역의 color 혹은 빈 공간에 이동시켜 놓으면 된다.
 
-![이동경로에 수치 반영하기](https://cloud.githubusercontent.com/assets/10662638/20956138/743302e4-bc8b-11e6-8153-83d413e0d389.png)
+![이동경로에 수치 반영하기](https://cloud.githubusercontent.com/assets/10662638/20956298/585b4fee-bc8c-11e6-8292-cfd22f3dad91.png)
 
 마지막으로 특정 수치 값에 해당하는 필드를 marks 영역의 color 영역과 size 영역으로 이동시켜서 수치 값을 반영한 이동경로 맵을 완성할 수 있다.
