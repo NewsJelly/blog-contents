@@ -11,7 +11,7 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 여행 일정별 루트, 버스 노선 등 이동경로를 태블로에서 시각화 할 수 있을까?
 시각화 유형 중 맵 시각화를 응용하여 이동경로 데이터를 시각화 해보자!
 
-태블로에서 기본적으로 할 수 있는 맵시각화는 filled map과 symbol map으로 지난 '강젤리의 태블로 활용기 #2 맵차트 그리기'에서 그 방법을 알아보았다.
+태블로에서 기본적으로 할 수 있는 맵시각화는 filled map과 symbol map으로 지난 '[강젤리의 태블로 활용기 #2 맵차트 그리기](http://newsjelly.github.io/blog-contents/injell/feature/2016/07/03/kangjell.html)'에서 그 방법을 알아보았다.
 
 ![일반적인 지도시각화 유형](https://cloud.githubusercontent.com/assets/10662638/20953354/49d03856-bc76-11e6-986c-09998ff225bb.png)
 
