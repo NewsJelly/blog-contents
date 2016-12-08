@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "강젤리의 태블로 활용기 #7 '계산된 필드 만들기' 기능 활용하기 -2"
+title:  "강젤리의 태블로 활용기 #8 '계산된 필드 만들기' 기능 활용하기 -2"
 date:   2016-12-07 11:44:25
 categories: injell feature
 tags: featured
