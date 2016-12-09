@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "강젤리의 태블로 활용기 #9 Map Box를 활용한 지도 시각화 해보기"
+date:   2016-12-08 02:44:25
+categories: injell feature
+tags: featured
+image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+---
+
+평범한 지도 말고 다른 지도 배경을 태블로에서 사용할 수 있을까?
+
+![지도 시각화 사례](https://cloud.githubusercontent.com/assets/10662638/21036452/4a588bcc-be09-11e6-8778-ed1a793cc59a.png)
+
+이번 포스팅은 태블로에서 제공하는 기본적인 지도에 대해 알아보고, 유명한 맵 서비스인 'Map Box'를 활용해 태블로에서 다양한 배경의 지도 시각화를 하는 방법에 대해 알아보고자 한다.
+
+![태블로의 지도 시각화](https://cloud.githubusercontent.com/assets/10662638/21036555/03817190-be0a-11e6-8173-98db6b38566b.png)
+
+태블로에서는 지도 시각화를 위해 기본적인 배경을 제공하고 있다. 해당 지도는 국가 혹은 지역별 영역 경계선을 포함하고 있다. 사용자는 이 배경의 지도를 기본으로 하여 symbol map과 filled map을 시각화 할 수 있다.
+
+그렇다면, 태블로에서 지도 배경에 대한 옵션을 변경할 수 있는 방법은 없을까?
+
+![맵 계층 옵션을 활용하기](https://cloud.githubusercontent.com/assets/10662638/21036648/d536053e-be0a-11e6-9146-845c099d03ed.png)
+
+맵 옵션 중 '맵 계층' 옵션을 클릭하면, 지도 배경에 대한 간단한 수정이 가능하다. 위 이미지는 지도의 백그라운드 스타일로 '어둡게'를 적용한 것이다.
+
+이제, Map Box 서비스를 이용해 태블로에서 제공하지 않는 배경의 지도를 시각화에 반영해보자.
+
+![image](https://cloud.githubusercontent.com/assets/10662638/21036809/d874d99a-be0b-11e6-9de2-149258748ccc.png)
+
+서비스를 이용하기 위해서는 계정이 필요하다. 이미 계정을 가지고 있을 경우 해당 계정으로 로그인을 하고, 그렇지 않을 경우 계정을 생성한 뒤 로그인을 한다. 로그인 뒤에는 'Studio'을 클릭해 개인 화면으로 이동한다.
+
+![API access token 복사하기](https://cloud.githubusercontent.com/assets/10662638/21036856/3ad1850c-be0c-11e6-9b37-6c537d6d71a8.png)
+
+다음으로 화면 왼쪽 하단의 'acoount'를 클릭한다. 카테고리 중 'API access tokens'를 선택한 뒤 Default Public Token이라는 단어 밑의 주소를 복사해둔다.
+
+![Map box 배경 연결하기](https://cloud.githubusercontent.com/assets/10662638/21036945/0de337c4-be0d-11e6-8dde-1bbadea7601c.png)
+
+이제 다시 태블로로 돌아와서 상단 옵션 중 '맵' > '배경 맵' > '맵 서비스' 를 선택한다. 화면 중앙에 표시되는 팝업창을 확인할 수 있다. 이어서 해당 창의 왼쪽 하단의 '추가'를 클릭해 'map box'를 선택한다.
+
+![Map box 배경 적용하기](https://cloud.githubusercontent.com/assets/10662638/21037033/c0bea98c-be0d-11e6-8330-0dbc874da27e.png)
+
+이어서 나타나는 팝업창에서 '클래식'을 선택한다. Map box가 기본적으로 제공하는 지도 배경을 활용하기 위함이다. 다음으로 '스타일 이름' 창에 지칭하고 싶은 명칭을 작성하고, 위의 과정에서 복사해둔 Map Box API access tokens의 주소를 붙여넣는다. 다음으로 하단의 'Mapbox 사전 설정 스타일'로 제공되는 여러 개의 스타일 중 하나를 선택하고 '확인' 버튼을 누른다. 상단 우측 이미지와 같이 지도의 배경이 다르게 적용된 것을 확인 할 수 있다.
+
+![다양한 맵 스타일 적용 사례](https://cloud.githubusercontent.com/assets/10662638/21037158/d033e58e-be0e-11e6-8fb2-e41d118b9d4d.png)
+
+Map Box를 통해 적용할 수 있는 지도 스타일은 Basic, Pencil, Stellite 등 14가지로 사용자가 선택해서 바로 적용할 수 있다. 또한 태블로는 Map Box가 제공하는 기본 지도 스타일 외에도 개인이 커스터마이징한 지도를 연결할 수 있는 기능도 제공하고 있다.
