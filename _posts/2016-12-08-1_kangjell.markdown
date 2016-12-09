@@ -8,9 +8,9 @@ image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
 
-평범한 지도 말고 다른 지도 배경을 태블로에서 사용할 수 있을까?
-
 ![지도 시각화 사례](https://cloud.githubusercontent.com/assets/10662638/21036452/4a588bcc-be09-11e6-8778-ed1a793cc59a.png)
+
+평범한 지도 말고 다른 지도 배경을 태블로에서 사용할 수 있을까?
 
 이번 포스팅은 태블로에서 제공하는 기본적인 지도에 대해 알아보고, 유명한 맵 서비스인 'Map Box'를 활용해 태블로에서 다양한 배경의 지도 시각화를 하는 방법에 대해 알아보고자 한다.
 
