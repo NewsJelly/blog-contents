@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "강젤리의 태블로 활용기 #10 slope 차트 그리기"
+date:   2016-12-26 02:44:25
+categories: injell feature
+tags: featured
+image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+---
+
+![뉴욕타임즈 기사의 slope 차트 활용 사례](https://cloud.githubusercontent.com/assets/10662638/21488482/a3bef2fa-cc23-11e6-9d33-495ef7a6be99.png)
+
+slope 차트는 데이터의 변화를 시각적으로 효과적으로 보여주는 차트로, 이번 포스팅에서는 태블로에서 slope 차트를 그리는 방법을 알아보도록 하자.
+
+앞서 언급한 바와 같이 slope 차트는 데이터의 변화를 보여주는 차트이므로, 시각화 하고자 하는 데이터를 확인하고, 어떤 관점에서 변화를 보여줄 것인가에 대한 정의가 명확해야 한다. 
+
+이번 포스팅에서 활용할 데이터는 2015, 2016 외식 트렌드 데이터로, 각 연도별로 외식 횟수가 어떻게 달라졌는지의 변화를 시각화해보고자 한다.
+
+![활용데이터 예시](https://cloud.githubusercontent.com/assets/10662638/21488797/0135cf64-cc27-11e6-98f5-65aacd26d4d2.png)
+
+위 데이터를 활용해 하단의 시각화를 해보자. '연도' 필드를 열 영역으로, '월평균 외식빈도' 필드를 행 영역으로 이동시킨 뒤, '구분' 필드를 marks 영역의 color 영역으로 가져다 둔다.
+
+![연도별x외식형태별 월평균 외식빈도 횟수 시각화](https://cloud.githubusercontent.com/assets/10662638/21488849/8c34c7c8-cc27-11e6-949c-a7bd53b875a9.png)
+
+연도별x외식형태별 월평균 외식빈도 횟수를 시각화 한 라인 차트가 그려진 것을 확인할 수 있다.
+
+이제 각 데이터 변화의 지점에 원 모양을 더해보자. 
+
+![각 데이터 지점을 원 모양으로 바꾸기](https://cloud.githubusercontent.com/assets/10662638/21488887/2376f728-cc28-11e6-8f1d-f485972ba5f1.png)
+
+marks 영역 중 색상 옵션에서 line 차트의 종류를 표식이 있는 라인으로 변경한다. 왼쪽 이미지와 같이 각 지점에 원 모양이 더해져 슬로프 차트의 형태가 그려진 것을 확인 할 수 있다.
+
+나아가 참조선을 그려서 효과를 더해보자. 
+
+![계산된 필드 만들기](https://cloud.githubusercontent.com/assets/10662638/21489002/6876bf1a-cc29-11e6-95ad-34da6ea658cf.png)
+
+이전 포스팅에서 알아본 '계산된 필드 만들기' 기능을 활용하자. 데이터 필드가 리스트업 된 왼쪽 영역에서 오른쪽 마우스를 클릭한 뒤 '계산된 필드 만들기'를 선택한다. 이 경우 화면 중앙에 새로운 필드를 만들 수 있는 팝업 창이 뜬다.
+
+![계산된 필드 만들기](https://cloud.githubusercontent.com/assets/10662638/21489016/a69ac318-cc29-11e6-8bf0-785fc93f5bf9.png)
+
+팝업 창의 빈 영역에 다음과 같이 입력한 뒤 '확인'을 누른다. 필드 내용에 해당하는 '10/3'은 '월평균 외식빈도' 수 중 가장 큰 수를 카테고리 갯수로 나눈 것을 의미한다.
+
+![참조선 필드 시각화하기](https://cloud.githubusercontent.com/assets/10662638/21489054/ebbec1ce-cc29-11e6-80ad-0ff3c7ca2620.png)
+
+새롭게 만든 '참조선' 필드를 행 영역으로 이동시킨다. 기존 라인 차트 하단에 '참조선' 필드를 활용한 차트가 그려진다.
+
+![참조선 만들기](https://cloud.githubusercontent.com/assets/10662638/21489148/980834e2-cc2a-11e6-81d9-529e06a4ac32.png)
+
+참조선은 각 기준별로 그릴 것이므로 marks 영역에서 차트 유형을 막대로 바꿔준다. 두 개의 막대가 생긴 것을 확인할 수 있다. 또한 참조선은 카테고리의 구분이 필요 없으므로 makrs 영역 내에 활용된 '구분' 필드를 제거하고, size 영역을 클릭해 막대의 굵기를 가늘게 바꿔준다.
+
+다음으로는 두개의 차트를 하나로 합치기 위해 '이중축' 기능을 활용한다. 
+
+![이중축 만들기](https://cloud.githubusercontent.com/assets/10662638/21489234/5bd2976e-cc2b-11e6-8451-79b693635183.png)
+
+하단 차트의 왼쪽 상단을 클릭 한 채로 상단 차트의 우측 상단 영역으로 드래그 앤 드롭한다. 우측 상단 영역으로 드래그 하면 해당 영역에 초록색 박스가 생기는 것을 확인하자. 해당 과정을 하고나면 이중축을 가진 하나의 차트가 그려진 것을 확인할 수 있다.
+
+이제 마무리로 굳이 표시할 필요 없는 정보들을 정리해 slope 차트를 완성해보자. 
+
+![불필요한 정보 제외하기](https://cloud.githubusercontent.com/assets/10662638/21489271/cbf2cfc8-cc2b-11e6-84e4-a4e7f48a377b.png)
+
+이중축으로 활용된 '참조선'의 축 영역에서 오른쪽 마우스를 클릭 한 뒤 '머리글 표시'를 해제한다. 마찬가지로 상단의 '년도'라고 표시되어 있는 부분도 오른쪽 마우스를 클릭한 뒤 '열에 대한 필드 레이블 숨기기'를 선택한다.
+
+위와 같은 차트를 활용한 콘텐츠로 데이터랩 9화 [오늘은 뭐 먹지? 맛집 갈까? - 데이터로 보는 대한민국 외식업 콘텐츠 보러가기](https://public.tableau.com/views/__300/sheet11?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no#5)
