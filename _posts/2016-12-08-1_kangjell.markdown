@@ -26,7 +26,7 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 이제, Map Box 서비스를 이용해 태블로에서 제공하지 않는 배경의 지도를 시각화에 반영해보자.
 
-![image](https://cloud.githubusercontent.com/assets/10662638/21036809/d874d99a-be0b-11e6-9de2-149258748ccc.png)
+![Map box 홈페이지 메인](https://cloud.githubusercontent.com/assets/10662638/21036809/d874d99a-be0b-11e6-9de2-149258748ccc.png)
 
 서비스를 이용하기 위해서는 계정이 필요하다. 이미 계정을 가지고 있을 경우 해당 계정으로 로그인을 하고, 그렇지 않을 경우 계정을 생성한 뒤 로그인을 한다. 로그인 뒤에는 'Studio'을 클릭해 개인 화면으로 이동한다.
 
